@@ -1,0 +1,13 @@
+.container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+  }
+  
+  .dog {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: transform 2s ease-in-out;
+  }
